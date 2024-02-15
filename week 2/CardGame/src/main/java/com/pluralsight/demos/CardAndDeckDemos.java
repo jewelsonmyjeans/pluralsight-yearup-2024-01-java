@@ -39,16 +39,16 @@ public class CardAndDeckDemos
 
 		System.out.println(deckOfCards);
 
-		Hand gaby = new Hand("Gaby");
-		System.out.println("Gaby has " + gaby.getSize() + " cards");
-		System.out.println(gaby.getValue());
-		gaby.deal(topCard);
-		gaby.deal(deckOfCards.deal());
-		gaby.deal(deckOfCards.deal());
-		gaby.deal(deckOfCards.deal());
-		System.out.println("Gaby has " + gaby.getSize() + " cards");
-		System.out.println(gaby.getValue());
-		gaby.showHand();
+		Hand aviad = new Hand("Aviad");
+		System.out.println("Aviad has " + aviad.getSize() + " cards");
+		System.out.println(aviad.getValue());
+		aviad.deal(topCard);
+		aviad.deal(deckOfCards.deal());
+		aviad.deal(deckOfCards.deal());
+		aviad.deal(deckOfCards.deal());
+		System.out.println("Gaby has " + aviad.getSize() + " cards");
+		System.out.println(aviad.getValue());
+		aviad.showHand();
 	}
 
 }

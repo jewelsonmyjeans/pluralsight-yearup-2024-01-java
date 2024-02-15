@@ -12,6 +12,8 @@ public class HotelApplication
         // create a room that is clean and unoccupied
         // verify that it IS available
 
+
+
         // create a room that is dirty and occupied
         // verify that it IS NOT available
 
